@@ -632,9 +632,9 @@ ${aiComment}
               <span>100% Client-Side CSV Normalizer with Gemini AI</span>
             </div>
 
-            <h1 className="text-3xl sm:text-6xl font-extrabold text-[#F5EBE0] tracking-tight leading-[1.15] max-w-4xl mx-auto">
+            <h1 className="text-3xl sm:text-6xl font-extrabold text-[#F5EBE0] tracking-tight leading-[1.15] max-w-4xl mx-auto break-keep">
               엑셀 데이터를 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#DEBE96] via-[#E2B973] to-[#BA9367]">복사-붙여넣기</span>만 하세요.<br />
-              지능형 SCM 재고 리포트가 완성됩니다.
+              지능형 SCM 재고 리포트가 <span className="whitespace-nowrap">완성됩니다.</span>
             </h1>
 
             <p className="text-sm sm:text-base text-brand-muted max-w-2xl mx-auto leading-relaxed">
