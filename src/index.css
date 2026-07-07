@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", sans-serif;
+  --font-serif: "Pretendard", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-brand-bg: #0C1A13; /* Elegant deep botanical dark green */
+  --color-brand-panel: #14281E; /* Rich forest container */
+  --color-brand-accent: #E2B973; /* Refined golden sand accent */
+  --color-brand-muted: #A3B899; /* Bright warm-sage muted color for pristine readability */
+  --color-brand-bright: #F5EBE0; /* Warm organic ivory/off-white */
+  --color-brand-border: rgba(226, 185, 115, 0.15); /* Elegant gold-infused translucent border */
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Ensure Pretendard is applied everywhere globally with botanical background */
+body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  background-color: #0C1A13;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(61, 107, 81, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(92, 61, 46, 0.1) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: #F5EBE0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom classy scroller for sophisticated theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #14281E;
+}
+::-webkit-scrollbar-thumb {
+  background: #254433;
+  border-radius: 4px;
+  border: 1px solid rgba(226, 185, 115, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E2B973;
+}
+
+
+

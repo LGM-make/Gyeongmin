@@ -1,0 +1,6 @@
+{
+  "name": "재고 데이터 분석 전문가",
+  "description": "재고 데이터를 대화형 인터페이스를 통해 점진적으로 파악하고 정량 계산식 기반의 재고 현황 보고서와 AI 종합 코멘트를 자동 생성하는 도구입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
